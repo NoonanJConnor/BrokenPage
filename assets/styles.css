@@ -1,5 +1,11 @@
-.main-container {
+.main-container{
     background-color: #efefef;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.section-container{
+    background-color: white;
     display: grid;
     grid-template-columns: auto auto;
 }
