@@ -1,5 +1,5 @@
 /* Grid Styles*/
-.main-container{
+.body-container{
     background-color: #efefef;
     display: grid;
     grid-template-columns: 20vw auto;
@@ -9,7 +9,7 @@
     background-color: white;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 100vh;
+    
 }
 
 .nav-container{
@@ -22,4 +22,40 @@
 
 body{
     margin: 0;
+}
+
+.section--padding{
+    padding: 2rem;
+}
+
+.section--text{
+    color: blue;
+    height: 1.5rem;
+}
+
+.aside{
+    background-color: green;
+}
+
+.aside__list{
+    list-style: none;
+}
+
+.aside ul{
+    display: block;
+    width: 100%;
+}
+
+.aside li{
+    padding: 0.5rem 0;
+}
+
+.aside ul li a{
+    text-decoration: none;
+    color: green;
+    font-size: 1.25rem
+}
+
+aside ul li a:hover{
+    color: white;
 }
